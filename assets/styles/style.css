@@ -81,6 +81,12 @@ section {
   transform: translateY(0) scale(1);
 }
 
+.active {
+  display: block;
+  -webkit-animation: scaleAnim 1s ease-in-out;
+  animation: scaleAnim 1s ease-in-out;
+}
+
 .controls {
   position: fixed;
   z-index: 10;
@@ -107,4 +113,59 @@ section {
   align-items: center;
   margin: 0.7rem 0;
   box-shadow: var(--box-shadow-1);
+}
+
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+.header-content .left-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header-content .left-header .h-shape {
+  transition: var(--transition);
+  width: 50%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1; /*send to back*/
+  -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 56%, 0% 0%);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 56%, 0% 0%);
+}
+
+.header-content .left-header .image {
+  border-radius: var(--br-sm-2);
+  width: 68%;
+  height: 90%;
+  margin-left: 4rem;
+  background-color: var(--color-black);
+  transition: var(--transition);
+}
+.header-content .left-header .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: var(--transition);
+  filter: grayscale(100%);
+}
+.header-content .left-header .image img:hover {
+  filter: grayscale(0);
+}
+.header-content .right-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18rem;
+}
+.header-content .right-header .name {
+  font-size: 3rem;
+}
+.header-content .right-header .name span {
+  color: var(--color-secondary);
 }
