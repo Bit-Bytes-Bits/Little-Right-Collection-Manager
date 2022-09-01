@@ -227,3 +227,49 @@ section {
   background-color: var(--color-secondary);
   transform: translateX(0);
 }
+
+/* Form */
+.form-container{
+  border-radius: 20px;
+  /* width: 80%; */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 1px 3px #27AE60;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h3{
+  color: #fff;
+  align-self: center;
+  font-weight: 700;
+}
+
+.form-container input[type='text']{
+  font-size: 10px;
+  border: 1px solid #27AE60;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px 8px;
+  width: 80%;
+  color: #fff;
+  outline: none;
+  border-radius: 20px;
+  transition: all .2s ease-in;
+}
+
+.form-container input[type='username']:focus{
+  width: 85%;
+  border-color: #fff;
+}
+.wrapper{
+  /* border: 2px solid orangered; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  position: absolute;
+  top: 0;
+  left:0;
+}
