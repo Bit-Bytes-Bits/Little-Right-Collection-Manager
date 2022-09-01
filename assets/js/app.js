@@ -45,3 +45,35 @@ function pageTransitions(){
 
 pageTransitions();
 
+function renderHood(hood) {
+  // build animal
+  let card = document.createElement("li");
+  card.className = "card";
+  card.innerHTML = `
+    <img src = "${hood.image}">
+    <div class = "content">
+        <h4>${hood.name}</h4>
+        <p>
+            <span>${hood.inventory}</span> items
+        </p>
+        <p>
+        ${hood.description}
+        </p>
+    </div>
+    <div class='buttons'>
+    <button>Sell</button>
+    `;
+  // Add hood card to DOM
+  document.querySelector("#display-hoodies").appendChild(card);
+}
+
+function getHoodies(){
+  fetch('http://localhost:3000/hoodies')
+  .then(response => response.json())
+  .then(hoodies => hoodies.forEach(hood => renderHood(hood)))
+}
+
+function initialize(){
+  getHoodies();
+}
+initialize()
