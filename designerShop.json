@@ -1,0 +1,66 @@
+{
+  "hoodies": [
+    {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    }
+  ],
+  "shirts": [
+    {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    }
+  ],
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    }
+  ],
+  "jackets": [
+    {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "description": "",
+      "inventory": 0,
+      "image": ""
+    }
+  ]
+}
