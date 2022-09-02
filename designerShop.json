@@ -2,49 +2,49 @@
   "hoodies": [
     {
       "id": 1,
-      "name": "",
-      "description": "",
-      "inventory": 0,
-      "image": ""
+      "name": "Bomber Jacket",
+      "description": "Brown, size M",
+      "price": 2000,
+      "image": "./assets/images/jackets/1.jpg"
     },
     {
       "id": 2,
-      "name": "",
-      "description": "",
-      "inventory": 0,
-      "image": ""
+      "name": "Blue fill",
+      "description": "Blue, size XL With Kenyan flag.",
+      "price": 1400,
+      "image": "./assets/images/hoods/2.jpg"
     }
   ],
   "shirts": [
     {
       "id": 1,
-      "name": "",
-      "description": "",
-      "inventory": 0,
-      "image": ""
+      "name": "Beach Shirt",
+      "description": "Colorful shirt for the summer, XL.",
+      "price": 950,
+      "image": "./assets/images/shirts/1.jpg"
     },
     {
       "id": 2,
-      "name": "",
-      "description": "",
-      "inventory": 0,
-      "image": ""
+      "name": "Pattern shirt",
+      "description": "Light on the shoulders. Size XL.",
+      "price": 800,
+      "image": "./assets/images/shirts/2.jpg"
     }
   ],
   "sneakers": [
     {
       "id": 1,
-      "name": "",
-      "description": "",
-      "inventory": 0,
-      "image": ""
+      "name": "Air Jordan",
+      "description": "Size 43, Black on Grey color",
+      "price": 3500,
+      "image": "./assets/images/sneakers/airJordan.jpg"
     },
     {
       "id": 2,
-      "name": "",
-      "description": "",
-      "inventory": 0,
-      "image": ""
+      "name": "Js",
+      "description": "Size 44, Black Jordan's from Paris.",
+      "price": 1600,
+      "image": "./assets/images/sneakers/blackJs.jpg"
     }
   ],
   "jackets": [
@@ -52,15 +52,15 @@
       "id": 1,
       "name": "",
       "description": "",
-      "inventory": 0,
-      "image": ""
+      "price": 2000,
+      "image": "./assets/images/jackets/1.jpg"
     },
     {
       "id": 2,
       "name": "",
       "description": "",
-      "inventory": 0,
-      "image": ""
+      "price": 0,
+      "image": "./assets/images/jackets/2.jpg"
     }
   ]
 }

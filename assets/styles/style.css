@@ -260,7 +260,7 @@ section {
   transition: all .2s ease-in;
 }
 
-.form-container input[type='username']:focus{
+.form-container input[type='text']:focus{
   width: 85%;
   border-color: #fff;
 }
@@ -272,4 +272,12 @@ section {
   position: absolute;
   top: 0;
   left:0;
+}
+
+.card .content{
+  width: 500px;
+  padding: 20px;
+}
+.card .content img{
+  width: 90%;
 }
