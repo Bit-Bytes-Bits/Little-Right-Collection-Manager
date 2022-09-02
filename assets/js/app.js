@@ -99,7 +99,7 @@ function renderSneaker(sneaker) {
         </div>
     </div>
     `;
-  // Add hood card to DOM
+  // Add sneaker card to DOM
   document.querySelector("#display-sneakers").appendChild(card);
 }
 
@@ -109,8 +109,41 @@ function getSneakers(){
   .then(sneakers => sneakers.forEach(sneaker => renderSneaker(sneaker)))
 }
 
+// shirts
+
+function renderShirt(shirt) {
+  // build animal
+  let card = document.createElement("li");
+  card.className = "card";
+  card.innerHTML = `
+    
+    <div class = "content">
+    <img src = "${shirt.image}">
+        <h4>${shirt.name}</h4>
+        <p>
+           Ksh <span>${shirt.price}</span>
+        </p>
+        <p>
+        ${shirt.description}
+        </p>
+        <div class="btn-container">
+          <a href="" class="main-btn">
+          <span class="btn-text">Sell</span></a>
+        </div>
+    </div>
+    `;
+  // Add shirt card to DOM
+  document.querySelector("#display-shirts").appendChild(card);
+}
+
+function getShirts(){
+  fetch('http://localhost:3000/shirts')
+  .then(response => response.json())
+  .then(shirts => shirts.forEach(shirt => renderShirt(shirt)))
+}
 function initialize(){
   getHoodies();
   getSneakers();
+  getShirts();
 }
 initialize()
