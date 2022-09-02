@@ -50,18 +50,22 @@ function renderHood(hood) {
   let card = document.createElement("li");
   card.className = "card";
   card.innerHTML = `
-    <img src = "${hood.image}">
+   
     <div class = "content">
+    <img src = "${hood.image}">
         <h4>${hood.name}</h4>
         <p>
-            <span>${hood.inventory}</span> items
+            Ksh <span>${hood.price}</span>
         </p>
         <p>
         ${hood.description}
         </p>
+        <div class="btn-container">
+          <a href="" class="main-btn">
+          <span class="btn-text">Sell</span></a>
+        </div>
     </div>
-    <div class='buttons'>
-    <button>Sell</button>
+    
     `;
   // Add hood card to DOM
   document.querySelector("#display-hoodies").appendChild(card);
@@ -73,7 +77,40 @@ function getHoodies(){
   .then(hoodies => hoodies.forEach(hood => renderHood(hood)))
 }
 
+// sneakers
+function renderSneaker(sneaker) {
+  // build animal
+  let card = document.createElement("li");
+  card.className = "card";
+  card.innerHTML = `
+    
+    <div class = "content">
+    <img src = "${sneaker.image}">
+        <h4>${sneaker.name}</h4>
+        <p>
+           Ksh <span>${sneaker.price}</span>
+        </p>
+        <p>
+        ${sneaker.description}
+        </p>
+        <div class="btn-container">
+          <a href="" class="main-btn">
+          <span class="btn-text">Sell</span></a>
+        </div>
+    </div>
+    `;
+  // Add hood card to DOM
+  document.querySelector("#display-sneakers").appendChild(card);
+}
+
+function getSneakers(){
+  fetch('http://localhost:3000/sneakers')
+  .then(response => response.json())
+  .then(sneakers => sneakers.forEach(sneaker => renderSneaker(sneaker)))
+}
+
 function initialize(){
   getHoodies();
+  getSneakers();
 }
 initialize()
