@@ -274,10 +274,27 @@ section {
   left:0;
 }
 
-.card .content{
-  width: 500px;
-  padding: 20px;
+/* #display-hoodies{
+  display: flex;
+  flex-direction: column;
+  /* border: solid white; 
+  width: 100%;
+} */
+
+.card{
+  margin-bottom: 10%;
+  /* border: solid red; */
+  box-shadow: 1px 3px 8px var(--color-secondary);
+  border-radius: 15px;
+  padding: 10px;
 }
-.card .content img{
-  width: 90%;
+.card img{
+ /* display:flex; */
+ /* border: solid yellow; */
+ width:100%;
+ height: 400px;
 }
+/* .card .content{
+  /* width: 90%; 
+  border: solid red;
+} */
