@@ -77,6 +77,21 @@ It is worthy to note that the images are not displayed on the live link because 
 
 Therefore, inorder to see this page in it's full glory, kindly clone the repository to your local machine and follow the [Program Setup](#program-setup) above.
 
+
+## Project Images
+Landing Page 1
+![view](./assets/images/project-images/colored.png)  
+
+Landing Page 2
+![view](./assets/images/project-images/grayscale.png)  
+
+Shoes section card 1
+![view](./assets/images/project-images/shoes.png)
+
+Shirts section card 1
+![view](./assets/images/project-images/shirts.png)
+
+
 ## License Information
 
 The MIT License (MIT)
