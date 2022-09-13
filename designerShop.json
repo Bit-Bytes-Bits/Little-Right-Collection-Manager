@@ -13,6 +13,27 @@
       "description": "Blue, size XL With Kenyan flag.",
       "price": 1400,
       "image": "./assets/images/hoods/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Orange hood",
+      "description": "Custom branded Hoodie.",
+      "price": 1400,
+      "image": "./assets/images/hoods/8.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Black hood",
+      "description": "Design Logo branding",
+      "price": 1400,
+      "image": "./assets/images/hoods/13.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sample hoodies",
+      "description": "Variety of hoodies in stock.",
+      "price": 1400,
+      "image": "./assets/images/hoods/4.jpg"
     }
   ],
   "shirts": [
@@ -29,6 +50,27 @@
       "description": "Light on the shoulders. Size XL.",
       "price": 800,
       "image": "./assets/images/shirts/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Orange Pattern shirt",
+      "description": "Light on the shoulders. Size XXL.",
+      "price": 800,
+      "image": "./assets/images/shirts/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Blue Armani shirt",
+      "description": "Blue short sleeved shirt. Size XXL",
+      "price": 1200,
+      "image": "./assets/images/shirts/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Grey Armani shirt",
+      "description": "Grey short sleeved shirt. Size XXL.",
+      "price": 1200,
+      "image": "./assets/images/shirts/5.jpg"
     }
   ],
   "sneakers": [
@@ -45,6 +87,27 @@
       "description": "Size 44, Black Jordan's from Paris.",
       "price": 1600,
       "image": "./assets/images/sneakers/blackJs.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Yellow Jordan 4",
+      "description": "Size 43. As seen on the home page, our MVP.",
+      "price": 3000,
+      "image": "./assets/images/sneakers/yellowJs.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pink Js",
+      "description": "Size 42, Ladies wear.",
+      "price": 1600,
+      "image": "./assets/images/sneakers/pinkJs.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Addidas Sneaker",
+      "description": "Size 42. Grey color ",
+      "price": 1600,
+      "image": "./assets/images/sneakers/greyAddidas.jpg"
     }
   ],
   "jackets": [
