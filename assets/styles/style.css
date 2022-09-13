@@ -231,7 +231,6 @@ section {
 /* Form */
 .form-container{
   border-radius: 20px;
-  /* width: 80%; */
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.4);
   box-shadow: 2px 1px 3px #27AE60;
@@ -265,36 +264,27 @@ section {
   border-color: #fff;
 }
 .wrapper{
-  /* border: 2px solid orangered; */
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   position: absolute;
   top: 0;
   left:0;
 }
 
-/* #display-hoodies{
-  display: flex;
-  flex-direction: column;
-  /* border: solid white; 
-  width: 100%;
-} */
-
 .card{
   margin-bottom: 10%;
-  /* border: solid red; */
   box-shadow: 1px 3px 8px var(--color-secondary);
   border-radius: 15px;
   padding: 10px;
+  width: 80%;
 }
+
 .card img{
- /* display:flex; */
- /* border: solid yellow; */
- width:100%;
+ width:80%;
  height: 400px;
 }
-/* .card .content{
-  /* width: 90%; 
-  border: solid red;
-} */
+
+.card, .card img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  transition: .9s ease-in-out;
+}
